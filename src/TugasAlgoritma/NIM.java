@@ -2,7 +2,7 @@ package TugasAlgoritma;
 
 public class NIM {
     private String nim;
-    public String getNim() { return nim; }
+
     public void setNim(String nim) {this.nim = nim;}
     public String getJenjang() {
         char kodejenjang = nim.charAt(0);
